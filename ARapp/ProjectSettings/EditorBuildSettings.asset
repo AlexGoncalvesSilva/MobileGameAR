@@ -9,9 +9,12 @@ EditorBuildSettings:
     path: Assets/Scenes/Menu.unity
     guid: 43b2cd56dee88e74c99bde65fd05620c
   - enabled: 1
+    path: Assets/Scenes/ARCapture.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
     path: Assets/Scenes/ARIsland.unity
     guid: 4023406f854c3dc4aa12d26a288dfb04
   - enabled: 1
-    path: Assets/Scenes/AR.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
+    path: Assets/Scenes/Catalog.unity
+    guid: 6fdf0fe0ac9628a4ca2d60191a7f2cb8
   m_configObjects: {}
