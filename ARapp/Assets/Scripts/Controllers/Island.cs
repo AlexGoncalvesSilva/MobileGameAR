@@ -6,25 +6,33 @@ public class Island : MonoBehaviour
 {
 
     public GameObject animal;
+    public GameObject cubo;
 
     // Start is called before the first frame update
     void Start()
     {
-        if (AnimalRegister.instance.catalogou == true)
-        {
-            animal.SetActive(true);
-            Debug.Log("Catalogou");
-        }
-        if (AnimalRegister.instance.catalogou == false)
-        {
-            animal.SetActive(false);
-            Debug.Log("Nada catalogado");
-        }
+  
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        animalSpawn();
+    }
+
+    void animalSpawn()
+    {
+        if (AnimalRegister.instance.catalogou == true)
+        {
+            cubo.SetActive(false);
+            animal.SetActive(true);
+            Debug.Log("Catalogou");
+        }
+        if (AnimalRegister.instance.catalogou == false)
+        {
+            cubo.SetActive(true);
+            animal.SetActive(false);
+            Debug.Log("Nada catalogado");
+        }
     }
 }

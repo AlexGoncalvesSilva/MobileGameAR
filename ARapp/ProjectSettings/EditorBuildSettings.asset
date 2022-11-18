@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Catalog.unity
     guid: 6fdf0fe0ac9628a4ca2d60191a7f2cb8
+  - enabled: 1
+    path: Assets/Scenes/Conquista.unity
+    guid: fe576161e16572b47b81965ce05bf958
   m_configObjects: {}
