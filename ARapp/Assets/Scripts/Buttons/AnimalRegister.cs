@@ -8,6 +8,8 @@ public class AnimalRegister : MonoBehaviour
 
     public bool catalogou = false;
 
+    public bool podeCatalogar = false;
+
     private void Awake()
     {
         instance = this;
@@ -15,18 +17,28 @@ public class AnimalRegister : MonoBehaviour
 
     // Start is called before the first frame update
     void Start()
-    { 
+    {
 
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
     public void clickCameraButton()
     {
-        catalogou = true;
+        if (podeCatalogar)
+        {
+            catalogou = true;
+        }
+        else {  }
     }
+
+    public void seeTheAnimal()
+    {
+        podeCatalogar = true;
+    }
+
 }

@@ -3,7 +3,11 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - MA
+  - CA
+  - CE
+  - AM
   layers:
   - Default
   - TransparentFX
@@ -11,26 +15,26 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Tamandua
+  - SapoCururu
+  - SapoMartelo
+  - Jacare
+  - CobraCoral
+  - AsaBranca
+  - Carcara
+  - ArarinhaAzul
+  - Calango
+  - TatuBola
+  - PeixeBoi
+  - OncaPintada
+  - Anta
+  - Tucano
+  - Cutia
+  - Lobo
+  - Jiboia
+  - Ema
+  - Ariranha
+  - Veado
   - 
   - 
   - 

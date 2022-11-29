@@ -5,33 +5,30 @@ using UnityEngine;
 public class Island : MonoBehaviour
 {
 
-    public GameObject animal;
-    public GameObject cubo;
+    public GameObject Animal;   
 
     // Start is called before the first frame update
     void Start()
     {
-  
+        animalSpawn();
     }
 
     // Update is called once per frame
     void Update()
     {
-        animalSpawn();
+        
     }
 
     void animalSpawn()
     {
         if (AnimalRegister.instance.catalogou == true)
         {
-            cubo.SetActive(false);
-            animal.SetActive(true);
+            Animal.SetActive(true);
             Debug.Log("Catalogou");
         }
         if (AnimalRegister.instance.catalogou == false)
         {
-            cubo.SetActive(true);
-            animal.SetActive(false);
+            Animal.SetActive(false);
             Debug.Log("Nada catalogado");
         }
     }
